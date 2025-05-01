@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9ba8b4;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #3c0e2c;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #555;
+    margin: 10px 0 5px;
+}
+
+ol, ul {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+ol li, ul li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+b {
+    color: #000;
+}
+
+u {
+    text-decoration: underline;
+}

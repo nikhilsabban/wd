@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment No. 4 - HTML Lists</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+      background: #f4f6f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      background-color: #14bbbb;
+      padding: 20px;
+      border-radius: 8px;
+      color: #fff;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #fff;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-top: 30px;
+      font-size: 1.8em;
+    }
+    h3 {
+      color: #aa1cd2;
+      margin-top: 20px;
+      font-size: 1.4em;
+    }
+    ul, ol {
+      padding-left: 40px;
+      margin-top: 10px;
+    }
+    li {
+      margin: 8px 0;
+      font-size: 1.1em;
+      color: #555;
+    }
+
+    /* Styling for unordered lists */
+    ul {
+      list-style-type: disc;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    /* Different list styles */
+    .list-disc {
+      list-style-type: disc;
+    }
+    .list-circle {
+      list-style-type: circle;
+    }
+    .list-square {
+      list-style-type: square;
+    }
+
+    /* Styling for ordered lists */
+    ol {
+      margin-top: 10px;
+      padding-left: 40px;
+      color: #444;
+    }
+
+    /* Styling for different ordered list types */
+    ol[type="1"] {
+      color: #d35400;
+    }
+
+    ol[type="A"] {
+      color: #2980b9;
+    }
+
+    ol[type="a"] {
+      color: #27ae60;
+    }
+
+    ol[type="I"] {
+      color: #8e44ad;
+    }
+
+    ol[type="i"] {
+      color: #e67e22;
+    }
+
+    /* Nested lists styling */
+    ol ol {
+      list-style-type: circle;
+      margin-left: 20px;
+    }
+
+    /* Additional Styling for sections */
+    section {
+      margin-bottom: 20px;
+    }
+
+    /* Code Styling */
+    code {
+      font-family: monospace;
+      background-color: #f1c40f;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>HTML Lists Demonstration</h1>
+</header>
+
+<main>
+  
+  <h2>Unordered List (General Topics)</h2>
+  <ul>
+    <li>Data Structures & Algorithms</li>
+    <li>Web Development</li>
+    <li>Logical Reasoning</li>
+    <li>Programming Languages</li>
+  </ul>
+
+  <h3>Different List Styles Using the <code>type</code> Attribute</h3>
+
+  <h2>• Disc Style</h2>
+  <ul class="list-disc">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Mango</li>
+  </ul>
+
+  <h2>• Circle Style</h2>
+  <ul class="list-circle">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Mango</li>
+  </ul>
+
+  <h2>• Square Style</h2>
+  <ul class="list-square">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Mango</li>
+  </ul>
+
+  <h2>Ordered List (Web Technologies)</h2>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+
+  <h3>Different Ordered List Types</h3>
+
+  <h2>• Numbers Starting From 14</h2>
+  <ol type="1" start="14">
+    <li>Python</li>
+    <li>Java</li>
+    <li>C++</li>
+  </ol>
+
+  <h2>• Uppercase Letters</h2>
+  <ol type="A">
+    <li>Frontend Development</li>
+    <li>Backend Development</li>
+    <li>Database Management</li>
+  </ol>
+
+  <h2>• Lowercase Letters</h2>
+  <ol type="a">
+    <li>Cloud Computing</li>
+    <li>Machine Learning</li>
+    <li>Cybersecurity</li>
+  </ol>
+
+  <h2>• Reversed Order</h2>
+  <ol reversed>
+    <li>ReactJS</li>
+    <li>NodeJS</li>
+    <li>MongoDB</li>
+  </ol>
+
+  <h2>• Roman Numerals (Uppercase)</h2>
+  <ol type="I">
+    <li>Operating Systems</li>
+    <li>Computer Networks</li>
+    <li>Database Systems</li>
+  </ol>
+
+  <h2>• Roman Numerals (Lowercase)</h2>
+  <ol type="i">
+    <li>Statistics</li>
+    <li>Probability</li>
+    <li>Mathematics</li>
+  </ol>
+
+  <h2>• Nested Lists Example</h2>
+  <ol>
+    <li>Food
+      <ol>
+        <li>Vegetarian</li>
+        <li>Non-Vegetarian</li>
+      </ol>
+    </li>
+    <li>Beverages
+      <ol>
+        <li>Tea</li>
+        <li>Coffee</li>
+      </ol>
+    </li>
+  </ol>
+
+</main>
+
+</body>
+</html>

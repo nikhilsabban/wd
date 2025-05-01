@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Assignments</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ff4e50, #f9d423);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(15px);
+      padding: 50px 30px;
+      border-radius: 25px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      max-width: 600px;
+      width: 90%;
+    }
+
+    h1 {
+      margin-bottom: 35px;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+    }
+
+    .btn {
+      background: linear-gradient(135deg, #ffffff, #f1f1f1);
+      color: #ff4e50;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 15px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      text-decoration: none;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .btn:nth-child(2n) {
+      background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+      color: #34495e;
+    }
+
+    .btn:nth-child(3n) {
+      background: linear-gradient(135deg, #d4fc79, #96e6a1);
+      color: #34495e;
+    }
+
+    .btn:nth-child(4n) {
+      background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+      color: #34495e;
+    }
+
+    .btn:hover {
+      transform: translateY(-5px);
+      background: #ffffff;
+      color: #ff4e50;
+    }
+
+    .btn i {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>CSS Assignments</h1>
+    <div class="btn-grid">
+      <a class="btn" href="Externalcss.html"><i class="fa-brands fa-css3-alt"></i> External CSS</a>
+      <a class="btn" href="InlineCssExample.html"><i class="fa-brands fa-css3-alt"></i> Inline CSS</a>
+      <a class="btn" href="InternalCss.html"><i class="fa-brands fa-css3-alt"></i> Internal CSS</a>
+      <a class="btn" href="ASSIGNMENT8.html"><i class="fa-solid fa-calendar-days"></i> Timetable</a>
+      <a class="btn" href="ASSIGNMENT10.html"><i class="fa-solid fa-id-badge"></i> Portfolio</a>
+      <a class="btn" href="ASSIGNMENT9.html"><i class="fa-solid fa-user-tie"></i> Employee Form</a>
+    </div>
+  </div>
+</body>
+</html>
