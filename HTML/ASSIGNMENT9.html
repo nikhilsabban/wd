@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Admission Form</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background-color: #e0f7fa;
+    }
+    .container {
+        max-width: 500px;
+        background: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+        text-align: center;
+        color: #00796b;
+    }
+    label {
+        font-weight: bold;
+        display: block;
+        margin-top: 15px;
+    }
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 8px;
+        border: 1px solid #bbb;
+        border-radius: 6px;
+    }
+    button {
+        background: #00796b;
+        color: white;
+        padding: 12px;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        border-radius: 6px;
+    }
+    button:hover {
+        background: #004d40;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Admission Form</h2>
+    <form action="#" method="post">
+        <label for="fullname">Student Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <label for="phone">Contact Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your contact number" required>
+
+        <label for="program">Program Applying For</label>
+        <select id="program" name="program" required>
+            <option value="">Select Program</option>
+            <option value="B.Sc. Computer Science">B.Sc. Computer Science</option>
+            <option value="B.A. English Literature">B.A. English Literature</option>
+            <option value="B.Com. Accounting">B.Com. Accounting</option>
+            <option value="B.E. Mechanical">B.E. Mechanical</option>
+        </select>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</div>
+
+</body>
+</html>

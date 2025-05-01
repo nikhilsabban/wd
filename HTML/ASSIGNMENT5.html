@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment No. 5 - Images with HTML</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 20px;
+      color: #2c3e50;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #34495e;
+    }
+    p {
+      text-align: center;
+      font-size: 1.2em;
+    }
+    .image-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+    img {
+      border: 5px solid #3498db;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    }
+    .description {
+      text-align: center;
+      font-size: 1em;
+      margin-top: 10px;
+      color: #555;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Exploring the Beauty of Nature through Images</h1>
+</header>
+
+<main>
+
+  <h1>Welcome to Assignment 5!</h1>
+  <p>Here is a beautiful view of the Nature</p>
+
+  <div class="image-container">
+    <img src="nature.jpg" alt="natyre" width="600" height="400" usemap="#grandcanyonmap">
+  </div>
+  <div class="image-container">
+    <img src="images.jpg" alt="natyre" width="600" height="400" usemap="#grandcanyonmap">
+  </div>
+  <p class="description">
+  
+  </p>
+
+  <map name="grandcanyonmap">
+    <area shape="rect" coords="50,50,150,150" alt="Canyon Rim" href="https://en.wikipedia.org/wiki/Grand_Canyon">
+    <area shape="circle" coords="300,200,50" alt="Colorado River" href="https://en.wikipedia.org/wiki/Colorado_River">
+    <area shape="poly" coords="400,100,500,100,450,200" alt="Hiking Trails" href="https://www.nps.gov/grca/planyourvisit/hiking.htm">
+  </map>
+
+  <p

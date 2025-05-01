@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignments Hub</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(20px);
+      padding: 50px 30px;
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      max-width: 600px;
+      width: 90%;
+    }
+
+    h1 {
+      margin-bottom: 35px;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+    }
+
+    .btn {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      color: #2c3e50;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 15px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: transform 0.3s ease, background 0.3s ease;
+      text-decoration: none;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .btn:nth-child(2n) {
+      background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    }
+
+    .btn:nth-child(3n) {
+      background: linear-gradient(135deg, #d4fc79, #96e6a1);
+    }
+
+    .btn:nth-child(4n) {
+      background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    }
+
+    .btn:hover {
+      transform: translateY(-5px);
+      background: #ffffff;
+      color: #2575fc;
+    }
+
+    .btn i {
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>HTML Assignments</h1>
+    <div class="btn-grid">
+      <a class="btn" href="ASSIGNMENT1.html"><i class="fa-brands fa-html5"></i> Assignment 1</a>
+      <a class="btn" href="ASSIGNMENT2.html"><i class="fa-brands fa-html5"></i> Assignment 2</a>
+      <a class="btn" href="ASSIGNMENT3.html"><i class="fa-brands fa-html5"></i> Assignment 3</a>
+      <a class="btn" href="ASSIGNMENT4.html"><i class="fa-brands fa-html5"></i> Assignment 4</a>
+      <a class="btn" href="ASSIGNMENT5.html"><i class="fa-brands fa-html5"></i> Assignment 5</a>
+      <a class="btn" href="ASSIGNMENT6.html"><i class="fa-brands fa-css3-alt"></i> Assignment 6</a>
+      <a class="btn" href="ASSIGNMENT7.html"><i class="fa-brands fa-css3-alt"></i> Assignment 7</a>
+      <a class="btn" href="ASSIGNMENT8.html"><i class="fa-brands fa-css3-alt"></i> Assignment 8</a>
+      <a class="btn" href="ASSIGNMENT9.html"><i class="fa-brands fa-css3-alt"></i> Assignment 9</a>
+      <a class="btn" href="ASSIGNMENT10.html"><i class="fa-brands fa-css3-alt"></i> Assignment 10</a>
+    </div>
+  </div>
+</body>
+</html>
